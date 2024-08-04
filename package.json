@@ -1,0 +1,24 @@
+{
+  "name": "stripeorders",
+  "version": "1.0.0",
+  "description": "Generating new products using Stripe API for freelancing business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senceye/StripeOrders.git"
+  },
+  "author": "Jakub Budzyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/senceye/StripeOrders/issues"
+  },
+  "homepage": "https://github.com/senceye/StripeOrders#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.6",
+    "stripe": "^16.6.0"
+  }
+}
